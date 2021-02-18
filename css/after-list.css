@@ -1,0 +1,137 @@
+*{
+    padding: 0;margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+}
+
+.after-list{
+    font-size: 0;
+    padding: 2%;
+}
+.after-list li{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.after-list img{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.inner{
+    padding: 0 4%;
+    height: 200px;
+    overflow: hidden;
+}
+.after-list li:hover{
+    opacity: 0.8;
+}
+
+.dialog{
+    background: url(../img/bg-black.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    text-align: center;
+}
+.dialog-close{
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(../img/iconpc.png);
+    background-image: -webkit-image-set(url(../img/iconpc.png) 1x,url(../img/iconpc@2x.png) 2x);
+    background-repeat: no-repeat;
+    background-position: 2px -293px;
+    cursor: pointer;
+    z-index: 10;;
+}
+[id="dialog-img"]{
+    display: inline-block;
+
+}
+.dialog-link{
+    display: none;
+}
+
+.info{
+    margin-top: 20px;
+    padding: 0 4%;
+}
+h1{
+    color: #E95514;
+    margin-bottom: 10px;
+}
+.info p{
+    line-height: 24px;
+}
+.shu{
+    height: 100%;
+}
+.heng{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+}
+
+@media screen and (max-width: 480px) {
+    h1{
+        margin-bottom: 20px;
+    }
+    .inner{
+        height: 20vh;
+    }
+    .shu{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0,-50%);
+        height: auto;
+    }
+    .dialog-close{
+        width: 40px;
+        height: 40px;
+        right: 0;
+        top: 0;
+        position: absolute;
+        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.8);
+        background-image: url(../img/iconpc.png);
+        background-image: -webkit-image-set(url(../img/iconpc.png) 1x,url(../img/iconpc@2x.png) 2x);
+        background-repeat: no-repeat;
+        background-position: 2px -222px;
+        background-size: 150px;
+        cursor: pointer;
+        z-index: 10;;
+    }
+    .dialog-link{
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        bottom: 5vh;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 150px;
+        border-radius: 10px;
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+    }
+    
+}
