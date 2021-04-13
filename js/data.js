@@ -354,6 +354,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-gongyizt.jpg',
+                'qr': webWorksPath + 'pc-gongyizt-qr.png',
+                'name': '信新相映公益服务 | 专题',
+                'href': 'http://vip.qdxin.cn/2020/gongyi0413/'
+            },
+            {
                 'src': webWorksPath + 'pc-xinziyuan.jpg',
                 'qr': webWorksPath + 'pc-xinziyuan-qr.png',
                 'name': '信网资源',
