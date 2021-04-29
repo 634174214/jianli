@@ -221,6 +221,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [  // 数据
             {                        
+                'src': webWorksPath + 'h5-2021-haier.jpg',    // 展示图片
+                'qr': webWorksPath + 'h5-2021-haier-qr.png',  // 作品二维码
+                'name': '新房装修 旧房改造-海尔三翼鸟',                      // 作品名称
+                'href': 'http://vip.qdxin.cn/2021/haier/'               // 作品链接
+            },
+            {                        
                 'src': webWorksPath + 'h5-yantai.jpg',    // 展示图片
                 'qr': webWorksPath + 'h5-yantai-qr.png',  // 作品二维码
                 'name': '2019世界工业设计大会',                      // 作品名称
