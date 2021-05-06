@@ -618,6 +618,52 @@ var webALLWorks = [
 var designPath = 'images/design/';
 var designWorks = [
 {
+        'label':   '海尔三翼鸟厨房的奇妙之旅',   
+        'desc':    '海尔三翼鸟厨房装修用户权益、装修产品介绍海报',   
+        'show': designPath + 'sanyiniai-c-1.jpg',
+        'images':  [
+            {
+                'src': designPath + 'sanyiniai-c-1.jpg',
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniai-c-2.jpg', 
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniai-c-3.jpg',
+                'isvertical' : true          
+            }
+        ] 
+    },
+{
+        'label':   '海尔三翼鸟五一装修征集',   
+        'desc':    '海尔三翼鸟装修H5专题',   
+        'show': designPath + 'sanyiniao-h-1.jpg',
+        'images':  [
+            {
+                'src': designPath + 'sanyiniao-h-1.jpg',
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniao-h-2.jpg', 
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniao-h-3.jpg',
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniao-h-4.jpg', 
+                'isvertical' : true          
+            },
+            {
+                'src': designPath + 'sanyiniao-h-5.jpg',
+                'isvertical' : true          
+            }
+        ] 
+    },
+{
         'label':   '信网专题设计',   
         'desc':    '信网单页专题设计（前台界面）',   
         'show': designPath + 'xin-vuezt-1.jpg',
