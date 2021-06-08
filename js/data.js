@@ -360,6 +360,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-2021yinyuejie.jpg',
+                'qr': webWorksPath + 'pc-2021yinyuejie-qr.png',
+                'name': '青岛市乐队网络大赛 | 专题',
+                'href': 'http://my.wubin.work/works/web-music/'
+            },
+            {
                 'src': webWorksPath + 'pc-gongyizt.jpg',
                 'qr': webWorksPath + 'pc-gongyizt-qr.png',
                 'name': '信新相映公益服务 | 专题',
