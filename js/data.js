@@ -226,6 +226,12 @@ var webALLWorks = [
                 'name': '新房装修 旧房改造-海尔三翼鸟',                      // 作品名称
                 'href': 'http://vip.qdxin.cn/2021/haier/'               // 作品链接
             },
+            {
+                'src': webWorksPath + 'h5-sanyiVR.jpg',
+                'qr': webWorksPath + 'h5-sanyiVR-qr.png',
+                'name': '青岛三医90年发展足迹VR展',
+                'href': 'http://vr.qdxin.cn/topic/sanyi-history/'
+            },
             {                        
                 'src': webWorksPath + 'h5-yantai.jpg',    // 展示图片
                 'qr': webWorksPath + 'h5-yantai-qr.png',  // 作品二维码
@@ -623,6 +629,17 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+        'label':   '信网H5卡片系统后台UI设计',   
+        'desc':    '独立完成从设计到全栈开发搭建的一个项目',   
+        'show': designPath + 'cardback-h-1.png',
+        'images':  [
+            {
+                'src': designPath + 'cardback-h-1.png',
+                'isvertical' : true          
+            }
+        ] 
+    },
 {
         'label':   '海尔三翼鸟厨房的奇妙之旅',   
         'desc':    '海尔三翼鸟厨房装修用户权益、装修产品介绍海报',   
