@@ -511,6 +511,18 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'vue-ns-wegame.jpg',
+                'qr': webWorksPath + 'vue-ns-wegame-qr.png',
+                'name': '游小圈（前后端开发）',
+                'href': 'http://ns.wubin.work/'
+            },
+            {
+                'src': webWorksPath + 'vue-song-lucky.jpg',
+                'qr': webWorksPath + 'vue-song-lucky-qr.png',
+                'name': '幸运翻翻翻（抽奖系统）',
+                'href': 'http://my.wubin.work/works/song-choujiang/'
+            },
+            {
                 'src': webWorksPath + 'vue-elme.jpg',
                 'qr': webWorksPath + 'vue-elme-qr.png',
                 'name': 'Vue高仿饿了么（自制）',
