@@ -326,7 +326,8 @@ var webALLWorks = [
                 'src': webWorksPath + 'h5-changee.jpg',
                 'qr': webWorksPath + 'h5-changee-qr.png',
                 'name': '全民射嫦娥',
-                'href': 'http://qd.sina.com.cn/iframe/6/_490.html'
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/xin-games/games/change/'
+                // 'href': 'http://qd.sina.com.cn/iframe/6/_490.html'
             },
             {
                 'src': webWorksPath + 'h5-maikaile.jpg',
