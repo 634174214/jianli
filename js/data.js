@@ -325,7 +325,7 @@ var webALLWorks = [
             {
                 'src': webWorksPath + 'h5-game-touzi.jpg',
                 'qr': webWorksPath + 'h5-game-touzi-qr.png',
-                'name': '来高新区秒变亿万富翁吧，快来赚钱！',
+                'name': '来高新区秒变亿万富翁吧！',
                 'href': 'http://vip.qdxin.cn/vip/anli/pro/xin-games/games/touzi/'
             },
             {
