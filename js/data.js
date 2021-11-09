@@ -317,6 +317,18 @@ var webALLWorks = [
                 'href': 'http://vip.qdxin.cn/h5/2019/qdcharity/'
             },
             {
+                'src': webWorksPath + 'h5-game-jiejb.jpg',
+                'qr': webWorksPath + 'h5-game-jiejb-qr.png',
+                'name': '迎新春，接金币游戏',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/xin-games/games/jie-jb/'
+            },
+            {
+                'src': webWorksPath + 'h5-game-touzi.jpg',
+                'qr': webWorksPath + 'h5-game-touzi-qr.png',
+                'name': '来高新区秒变亿万富翁吧，快来赚钱！',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/xin-games/games/touzi/'
+            },
+            {
                 'src': webWorksPath + 'h5-suning.jpg',
                 'qr': webWorksPath + 'h5-suning-qr.png',
                 'name': '奔向苏宁不能停',
