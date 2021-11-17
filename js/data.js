@@ -36,7 +36,7 @@ var skillCode = [
         'color': '#07c160'
     },
     {
-        'label': 'LAYUI',
+        'label': 'EL-UI',
         'percent': 70,
         'color': '#abacaf'
     }
@@ -257,6 +257,18 @@ var webALLWorks = [
                 'href': 'http://vip.qdxin.cn/h5/2018/meiliqd2018/'
             },
             {
+                'src': webWorksPath + 'h5-steam-xinzt.jpg',
+                'qr': webWorksPath + 'h5-steam-xinzt-qr.png',
+                'name': '信网专题系统 | 案例展示',
+                'href': 'http://www.qdxin.cn/special/zt-app/app/?id=84'
+            },
+            {
+                'src': webWorksPath + 'h5-steam-xin-imgzt.jpg',
+                'qr': webWorksPath + 'h5-steam-xin-imgzt-qr.png',
+                'name': '图片H5专题系统 | 案例展示',
+                'href': 'http://www.qdxin.cn/special/zt-app/app/?id=84'
+            },
+            {
                 'src': webWorksPath + 'h5-2019year.jpg',
                 'qr': webWorksPath + 'h5-2019year-qr.png',
                 'name': '2019新春贺卡',
@@ -345,7 +357,8 @@ var webALLWorks = [
                 'src': webWorksPath + 'h5-maikaile.jpg',
                 'qr': webWorksPath + 'h5-maikaile-qr.png',
                 'name': '奔向麦凯乐',
-                'href': 'http://act.qd.sina.com.cn/8318/mobile?from=timeline&isappinstalled=0'
+                // 'href': 'http://act.qd.sina.com.cn/8318/mobile?from=timeline&isappinstalled=0',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/xin-games/games/paoku26/'
             },
             {
                 'src': webWorksPath + 'h5-iphone6s.jpg',
@@ -654,6 +667,40 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '融创文旅双11潮乐GO',   
+    'desc':    '融创文旅双11潮乐GO节广告海报设计',   
+    'show': designPath + 'yingdu-202111.jpeg',
+    'images':  [
+        {
+            'src': designPath + 'yingdu-202111.jpeg',
+            'isvertical' : false         
+        }
+    ] 
+},
+{
+    'label':   '极地海洋公园-海洋节海报',   
+    'desc':    '青岛海昌极地海洋公园-冰GO海洋节海报',   
+    'show': designPath + 'jidi-haiyang.jpg',
+    'images':  [
+        {
+            'src': designPath + 'jidi-haiyang.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
+{
+    'label':   '和达集团大城双11海报设计',   
+    'desc':    '和达11月嗨玩计划，双11广告海报设计',   
+    'show': designPath + 'heda-20211.jpeg',
+    'images':  [
+        {
+            'src': designPath + 'heda-20211.jpeg',
+            'isvertical' : false         
+        }
+    ] 
+},
+
 {
         'label':   '信网H5卡片系统后台UI设计',   
         'desc':    '独立完成从设计到全栈开发搭建的一个项目',   
