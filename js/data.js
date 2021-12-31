@@ -537,6 +537,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'vue-text2audio.jpg',
+                'qr': webWorksPath + 'vue-text2audio-qr.png',
+                'name': '信网语音合成系统',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/kaikong-full/'
+            },
+            {
                 'src': webWorksPath + 'vue-ns-wegame.jpg',
                 'qr': webWorksPath + 'vue-ns-wegame-qr.png',
                 'name': '游小圈（前后端开发）',
@@ -667,6 +673,17 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '青岛中信银行30周年Logo',   
+    'desc':    '青岛中信银行30周年Logo设计',   
+    'show': designPath + 'qd-zhongxin-30years.jpg',
+    'images':  [
+        {
+            'src': designPath + 'qd-zhongxin-30years.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
 {
     'label':   '融创文旅双11潮乐GO',   
     'desc':    '融创文旅双11潮乐GO节广告海报设计',   
