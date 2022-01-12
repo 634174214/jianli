@@ -209,7 +209,7 @@ var webBetter = [
             }
         ],
     }
-]
+];
 
 // 全部前端作品
 var webWorksPath = 'images/allwebworks/';
@@ -392,6 +392,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-final2021.jpg',
+                'qr': webWorksPath + 'pc-final2021-qr.png',
+                'name': '2021青岛年度总结 | 专题',
+                'href': 'http://vip.qdxin.cn/h5/2022/2021zongjie/'
+            },
+            {
                 'src': webWorksPath + 'pc-2021yinyuejie.jpg',
                 'qr': webWorksPath + 'pc-2021yinyuejie-qr.png',
                 'name': '青岛市乐队网络大赛 | 专题',
@@ -438,6 +444,12 @@ var webALLWorks = [
                 'qr': webWorksPath + 'pc-chuanboli-qr.png',
                 'name': '信网传播力',
                 'href': 'http://www.qdxin.cn/about/chuanboli/'
+            },
+            {
+                'src': webWorksPath + 'pc-final2020.jpg',
+                'qr': webWorksPath + 'pc-final2020-qr.png',
+                'name': '信网2020年终总结',
+                'href': 'http://vip.qdxin.cn/2021/xfinal2020/'
             },
             {
                 'src': webWorksPath + 'pc-piyao.jpg',
@@ -540,7 +552,7 @@ var webALLWorks = [
                 'src': webWorksPath + 'vue-text2audio.jpg',
                 'qr': webWorksPath + 'vue-text2audio-qr.png',
                 'name': '信网语音合成系统',
-                'href': 'http://vip.qdxin.cn/vip/anli/pro/kaikong-full/'
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/text-mp3/'
             },
             {
                 'src': webWorksPath + 'vue-ns-wegame.jpg',
@@ -673,6 +685,29 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '青岛2022禁放烟花爆竹海报',   
+    'desc':    '青岛地区禁放烟花爆竹公益宣传海报设计',   
+    'show': designPath + 'h-2022-baozhu2.jpg',
+    'images':  [
+        {
+            'src': designPath + 'h-2022-baozhu1.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022-baozhu2.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022-baozhu3.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022-baozhu4.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
 {
     'label':   '青岛中信银行30周年Logo',   
     'desc':    '青岛中信银行30周年Logo设计',   
