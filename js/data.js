@@ -686,6 +686,67 @@ var webALLWorks = [
 var designPath = 'images/design/';
 var designWorks = [
 {
+    'label':   '禁烟花大屏宣传海报',   
+    'desc':    '2022青岛地铁大厦禁烟花大屏宣传海报设计',   
+    'show': designPath + 'jinfang-p-2.jpg',
+    'images':  [
+        {
+            'src': designPath + 'jinfang-p-3.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'jinfang-p-2.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'jinfang-p-1.jpg',
+            'isvertical' : false         
+        }
+    ] 
+},
+{
+    'label':   '云上打卡-最美海岸线',   
+    'desc':    'H5专题海报设计',   
+    'show': designPath + 'zuimei-h-1.jpg',
+    'images':  [
+        {
+            'src': designPath + 'zuimei-h-1.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'zuimei-h-2.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'zuimei-h-3.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'zuimei-h-4.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'zuimei-h-5.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'zuimei-h-6.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
+{
+    'label':   '爱市北看两会',   
+    'desc':    '2022市北区两会宣传展板设计',   
+    'show': designPath + '2022lianghui-p-1.jpg',
+    'images':  [
+        {
+            'src': designPath + '2022lianghui-p-1.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
+{
     'label':   '青岛2022禁放烟花爆竹海报',   
     'desc':    '青岛地区禁放烟花爆竹公益宣传海报设计',   
     'show': designPath + 'h-2022-baozhu2.jpg',
