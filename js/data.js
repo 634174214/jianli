@@ -221,6 +221,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [  // 数据
             {                        
+                'src': webWorksPath + 'h5-piyao_yiqing.jpg',    
+                'qr': webWorksPath + 'h5-piyao_yiqing-qr.png', 
+                'name': '辟谣游戏:动动手指,粉碎涉青谣言!',
+                'href': 'http://vip.qdxin.cn/h5/2022/piyao-yiqing/'
+            },
+            {                        
                 'src': webWorksPath + 'h5-2021-haier.jpg',    // 展示图片
                 'qr': webWorksPath + 'h5-2021-haier-qr.png',  // 作品二维码
                 'name': '新房装修 旧房改造-海尔三翼鸟',                      // 作品名称
@@ -555,6 +561,12 @@ var webALLWorks = [
                 'href': 'http://vip.qdxin.cn/vip/anli/pro/text-mp3/'
             },
             {
+                'src': webWorksPath + 'vue-haibao.jpg',
+                'qr': webWorksPath + 'vue-haibao-qr.png',
+                'name': '信网新闻海报生成工具',
+                'href': 'http://my.wubin.work/works/sale-card/'
+            },
+            {
                 'src': webWorksPath + 'vue-ns-wegame.jpg',
                 'qr': webWorksPath + 'vue-ns-wegame-qr.png',
                 'name': '游小圈（前后端开发）',
@@ -685,6 +697,29 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '图解政府工作报告-2022年市北区重点工作',   
+    'desc':    '宣传长图设计',   
+    'show': designPath + 'h-2022shibei-full.jpg',
+    'images':  [
+        {
+            'src': designPath + 'h-2022shibei-1.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022shibei-2.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022shibei-3.jpg',
+            'isvertical' : true         
+        },
+        {
+            'src': designPath + 'h-2022shibei-full.jpg',
+            'isvertical' : true         
+        }
+    ] 
+},
 {
     'label':   '禁烟花大屏宣传海报',   
     'desc':    '2022青岛地铁大厦禁烟花大屏宣传海报设计',   
