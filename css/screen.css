@@ -760,6 +760,11 @@ background   : #ededed;
 .check-school .check-school-img{width: 400px;position: absolute;height: 566px;left: 50%;top: 50%;margin: -283px 0 0 -200px;background: url(../img/loading-pc.gif) no-repeat center center;}
 .check-school .check-school-img img{width: 100%;}
 
+.afterend-list li a.inline-link{
+    display: inline;color: #1f97f7;padding: 0 3px;
+}
+
+
 /* #cover, */
 .nav .m-contact-me,
 .Frontend .pagination,
