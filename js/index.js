@@ -820,4 +820,15 @@ $(function() {
         }
     });
 
+    // 海大显示非全日制tips
+    var haidaTips = null;
+    $('#haida-school').on('mouseenter', function() {
+        haidaTips = layer.tips('非全日制学历', this, {
+            tips: 2
+        });
+    });
+    $('#haida-school').on('mouseleave', function() {
+        layer.close(haidaTips);
+    });
+
 });

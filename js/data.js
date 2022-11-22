@@ -26,7 +26,7 @@ var skillCode = [
         'color': '#4fc08d'
     },
     {
-        'label': 'STYLUS',
+        'label': 'LESS',
         'percent': 90,
         'color': '#D64747'
     },
@@ -404,6 +404,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-2022huazhan.jpg',
+                'qr': webWorksPath + 'pc-2022huazhan-qr.png',
+                'name': '喜迎二十大 翰墨颂党恩 | 专题',
+                'href': 'http://vip.qdxin.cn/2022/xin-huazhan0929/'
+            },
+            {
                 'src': webWorksPath + 'pc-final2021.jpg',
                 'qr': webWorksPath + 'pc-final2021-qr.png',
                 'name': '2021青岛年度总结 | 专题',
@@ -734,6 +740,95 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '信号新闻APP',
+    'desc':    '信号新闻APP设计稿',
+    'show': designPath + 'xin-app/0.jpg',
+    'images':  [
+        {
+            'src': designPath + 'xin-app/0.jpg',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/0-2.jpg',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/1-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/1-2.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/2-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/2-2.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/2-3.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/2-4.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/3-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/4-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/5-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/6-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/7-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/7-2.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xin-app/8-1.png',
+            'isvertical' : true
+        }
+    ]
+},
+{
+    'label':   '三翼鸟&卡萨帝',
+    'desc':    '海尔三翼鸟-卡萨帝舒适中国家海报',
+    'show': designPath + 'h-sanyiniao202209.jpg',
+    'images':  [
+        {
+            'src': designPath + 'h-sanyiniao202209.jpg',
+            'isvertical' : false
+        }
+    ]
+},
+{
+    'label':   '融创水世界',
+    'desc':    '东方影都-奇趣海岛节海报',
+    'show': designPath + 'yingdu-c-1.jpg',
+    'images':  [
+        {
+            'src': designPath + 'yingdu-c-1.jpg',
+            'isvertical' : true
+        }
+    ]
+},
 {
     'label':   '森林公园地产海报',
     'desc':    '美好，如森林生长',
