@@ -121,7 +121,7 @@ var webBetter = [
                 'src': webBetterPath + '6-xinhaoapp.jpg',
                 'qr': webBetterPath + '6-xinhaoapp-qr.png',
                 'name': '信号新闻App',
-                'href': 'download/xinhao-app.html'
+                'href': 'http://jl.wubin.work/download/xinhao-app.html'
             },
             {
                 'src': webBetterPath + '2-ruiyuanxing.jpg',
@@ -229,7 +229,7 @@ var webALLWorks = [
                 'src': webBetterPath + '6-xinhaoapp.jpg',
                 'qr': webBetterPath + '6-xinhaoapp-qr.png',
                 'name': '信号新闻App',
-                'href': 'download/xinhao-app.html'
+                'href': 'http://jl.wubin.work/download/xinhao-app.html'
             }
         ]
     },
