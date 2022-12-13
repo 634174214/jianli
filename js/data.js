@@ -114,9 +114,15 @@ var webBetter = [
         ],
     },
     {
-        'label': '微信开发',
+        'label': 'APP / 微信开发',
         'qrclickShow': false,
         'data': [
+            {
+                'src': webBetterPath + '6-xinhaoapp.jpg',
+                'qr': webBetterPath + '6-xinhaoapp-qr.png',
+                'name': '信号新闻App',
+                'href': 'download/xinhao-app.html'
+            },
             {
                 'src': webBetterPath + '2-ruiyuanxing.jpg',
                 'qr': webBetterPath + '2-ruiyuanxing-qr.png',
@@ -129,12 +135,12 @@ var webBetter = [
                 'name': '信新相映微信公益平台',
                 'href': 'http://mp2.qdxin.cn/gongyi/index.php'
             },
-            {
-                'src': webBetterPath + '2-xinshop.jpg',
-                'qr': webBetterPath + '2-xinshop-qr.png',
-                'name': '信新相映积分商城（前后台）',
-                'href': 'http://mp2.qdxin.cn/gongyi/change.php'
-            }
+            // {
+            //     'src': webBetterPath + '2-xinshop.jpg',
+            //     'qr': webBetterPath + '2-xinshop-qr.png',
+            //     'name': '信新相映积分商城（前后台）',
+            //     'href': 'http://mp2.qdxin.cn/gongyi/change.php'
+            // }
         ],
     },
     {
@@ -214,6 +220,19 @@ var webBetter = [
 // 全部前端作品
 var webWorksPath = 'images/allwebworks/';
 var webALLWorks = [
+    // APP开发
+    {
+        'label': 'APP开发',
+        'qrclickShow': false,
+        'data': [
+            {
+                'src': webBetterPath + '6-xinhaoapp.jpg',
+                'qr': webBetterPath + '6-xinhaoapp-qr.png',
+                'name': '信号新闻App',
+                'href': 'download/xinhao-app.html'
+            }
+        ]
+    },
     // h5类别
     {
         'label': 'H5',   // 标题标签
