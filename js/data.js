@@ -423,6 +423,24 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-2023zt-huizong.jpg',
+                'qr': webWorksPath + 'pc-2023zt-huizong-qr.png',
+                'name': '信网新闻专题模板',
+                'href': 'http://my.wubin.work/works/xin-zt-huizong/zt/index.html?origin=https://doc.qdxin.com.cn/'
+            },
+            {
+                'src': webWorksPath + 'pc-xindoc.jpg',
+                'qr': webWorksPath + 'pc-xindoc-qr.png',
+                'name': '信网智库',
+                'href': 'http://my.wubin.work/works/xin-doc/登录.html'
+            },
+            {
+                'src': webWorksPath + 'pc-shinan-wenming.png',
+                'qr': webWorksPath + 'pc-shinan-wenming-qr.png',
+                'name': '文明出行我践行 信用市南 | 专题',
+                'href': 'http://vip.qdxin.cn/2023/wenming/'
+            },
+            {
                 'src': webWorksPath + 'pc-2022huazhan.jpg',
                 'qr': webWorksPath + 'pc-2022huazhan-qr.png',
                 'name': '喜迎二十大 翰墨颂党恩 | 专题',
@@ -599,6 +617,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-2023zt-huizong-tool.jpg',
+                'qr': webWorksPath + 'pc-2023zt-huizong-tool-qr.png',
+                'name': '信网新闻专题注释工具',
+                'href': 'http://my.wubin.work/works/xin-zt-huizong/tool/'
+            },
+            {
                 'src': webWorksPath + 'vue-qdlib.jpg',
                 'qr': webWorksPath + 'vue-qdlib-qr.png',
                 'name': '青岛风光库',
@@ -759,6 +783,21 @@ var webALLWorks = [
 // 设计作品
 var designPath = 'images/design/';
 var designWorks = [
+{
+    'label':   '信号新闻app介绍',
+    'desc':    '信号新闻app引导介绍下载页面的PC版和手机版',
+    'show': designPath + 'xinhaoapp-show-1.png',
+    'images':  [
+        {
+            'src': designPath + 'xinhaoapp-show-1.png',
+            'isvertical' : true
+        },
+        {
+            'src': designPath + 'xinhaoapp-show-2.png',
+            'isvertical' : true
+        }
+    ]
+},
 {
     'label':   '信号新闻APP',
     'desc':    '信号新闻APP设计稿',
