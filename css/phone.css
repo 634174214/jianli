@@ -805,6 +805,7 @@ background-position:-114px -232px;right: 10px;animation: moveright 1.5s both inf
     height: 100%;
     display: flex;
     align-items: center;
+    background: url('../img/loading-pc.gif') no-repeat center center;
 }
 .img-alert img{
     display: block;
