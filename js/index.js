@@ -835,6 +835,7 @@ $(function() {
     // 高项点击显示图片
     // 所有有.open-img-alert样式的元素 点击都出现弹窗 显示data-imgsrc指向的图片
     $('.open-img-alert').on('click', function() {
+        // https://layui.dev/docs/2.8/layer/index.html#options.content
         var imgsrc = $(this).data('imgsrc');
         var imgtitle = $(this).data('imgtitle');
         if(!imgsrc) {
