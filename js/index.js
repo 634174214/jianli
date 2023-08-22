@@ -831,4 +831,27 @@ $(function() {
         layer.close(haidaTips);
     });
 
+
+    // 高项点击显示图片
+    // 所有有.open-img-alert样式的元素 点击都出现弹窗 显示data-imgsrc指向的图片
+    $('.open-img-alert').on('click', function() {
+        var imgsrc = $(this).data('imgsrc');
+        var imgtitle = $(this).data('imgtitle');
+        if(!imgsrc) {
+            return;
+        }
+        imgtitle = imgtitle ? imgtitle : '信息'
+        var contentHtml = '<div class="img-alert"><img src="' + imgsrc + '"></div>';
+        var dialogArea = isPc ? ['600px', '90%'] : ['100%', '100%'];
+        layer.open({
+            type: 1, // page 层类型
+            title: imgtitle,
+            area: dialogArea,
+            shade: 0.7, // 遮罩透明度
+            shadeClose: true, // 点击遮罩区域，关闭弹层
+            anim: 0, // 0-6 的动画形式，-1 不开启
+            content: contentHtml
+        });
+    });
+
 });

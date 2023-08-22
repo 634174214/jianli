@@ -2,7 +2,7 @@
 var skillCode = [
     {
         'label': 'HTML',
-        'percent': 95,
+        'percent': 99,
         'color': '#676969'
     },
     {
@@ -12,17 +12,17 @@ var skillCode = [
     },
     {
         'label': 'JS',
-        'percent': 80,
+        'percent': 90,
         'color': '#D4D02E'
     },
     {
         'label': 'JQ',
-        'percent': 85,
+        'percent': 88,
         'color': '#7acef4'
     },
     {
         'label': 'VUE',
-        'percent': 80,
+        'percent': 85,
         'color': '#4fc08d'
     },
     {
@@ -31,14 +31,14 @@ var skillCode = [
         'color': '#D64747'
     },
     {
-        'label': 'WXML',
-        'percent': 95,
+        'label': 'UNI',
+        'percent': 80,
         'color': '#07c160'
     },
     {
-        'label': 'EL-UI',
+        'label': 'PHP',
         'percent': 70,
-        'color': '#abacaf'
+        'color': '#3f51b5'
     }
 ];
 // 设计技能配置
@@ -171,11 +171,17 @@ var webBetter = [
         'label': 'vue案例',
         'qrclickShow': false,
         'data': [
+            // {
+            //     'src': webBetterPath + '4-elme.jpg',
+            //     'qr': webBetterPath + '4-elme-qr.png',
+            //     'name': 'Vue高仿饿了么（自制）',
+            //     'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
+            // },
             {
-                'src': webBetterPath + '4-elme.jpg',
-                'qr': webBetterPath + '4-elme-qr.png',
-                'name': 'Vue高仿饿了么（自制）',
-                'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
+                'src': webBetterPath + '4-music.jpg',
+                'qr': webBetterPath + '4-music-qr.png',
+                'name': '炸鸡音乐WebAPP',
+                'href': 'http://my.wubin.work/works/qqmusic-vue3/html/'
             },
             {
                 'src': webBetterPath + '4-qdlib.jpg',
@@ -617,6 +623,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'vue-music.jpg',
+                'qr': webWorksPath + 'vue-music-qr.png',
+                'name': 'Vue制作炸鸡音乐（自制）',
+                'href': 'http://my.wubin.work/works/qqmusic-vue3/html/'
+            },
+            {
                 'src': webWorksPath + 'pc-2023zt-huizong-tool.jpg',
                 'qr': webWorksPath + 'pc-2023zt-huizong-tool-qr.png',
                 'name': '信网新闻专题注释工具',
@@ -627,6 +639,18 @@ var webALLWorks = [
                 'qr': webWorksPath + 'vue-qdlib-qr.png',
                 'name': '青岛风光库',
                 'href': 'http://qd.wubin.work/'
+            },
+            {
+                'src': webWorksPath + 'vue-yiqing.jpg',
+                'qr': webWorksPath + 'vue-yiqing-qr.png',
+                'name': '青岛肺炎疫情平台',
+                'href': 'http://vip.qdxin.cn/h5/2020/yiqing/?show'
+            },
+            {
+                'src': webWorksPath + 'vue-elme.jpg',
+                'qr': webWorksPath + 'vue-elme-qr.png',
+                'name': 'Vue高仿饿了么（自制）',
+                'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
             },
             {
                 'src': webWorksPath + 'vue-text2audio.jpg',
@@ -647,34 +671,16 @@ var webALLWorks = [
                 'href': 'http://my.wubin.work/works/toupiao/?id=5'
             },
             {
-                'src': webWorksPath + 'vue-ns-wegame.jpg',
-                'qr': webWorksPath + 'vue-ns-wegame-qr.png',
-                'name': '游小圈（前后端开发）',
-                'href': 'http://ns.wubin.work/'
-            },
-            {
                 'src': webWorksPath + 'vue-song-lucky.jpg',
                 'qr': webWorksPath + 'vue-song-lucky-qr.png',
                 'name': '幸运翻翻翻（抽奖系统）',
                 'href': 'http://my.wubin.work/works/song-choujiang/'
             },
             {
-                'src': webWorksPath + 'vue-elme.jpg',
-                'qr': webWorksPath + 'vue-elme-qr.png',
-                'name': 'Vue高仿饿了么（自制）',
-                'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
-            },
-            {
-                'src': webWorksPath + 'vue-music.jpg',
-                'qr': webWorksPath + 'vue-music-qr.png',
-                'name': 'Vue制作炸鸡音乐（自制）',
-                'href': 'http://634174214.gitee.io/vue-music/'
-            },
-            {
-                'src': webWorksPath + 'vue-yiqing.jpg',
-                'qr': webWorksPath + 'vue-yiqing-qr.png',
-                'name': '青岛肺炎疫情平台',
-                'href': 'http://vip.qdxin.cn/h5/2020/yiqing/?show'
+                'src': webWorksPath + 'vue-ns-wegame.jpg',
+                'qr': webWorksPath + 'vue-ns-wegame-qr.png',
+                'name': '游小圈（前后端开发）',
+                'href': 'http://ns.wubin.work/'
             },
             {
                 'src': webWorksPath + 'vue-hospitals.jpg',

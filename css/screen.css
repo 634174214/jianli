@@ -190,6 +190,15 @@ abbr,acronym {
 .info .myinfo .certificate>.text span{padding-right: 10px;}
 .info .myinfo .trait>.text{width: 700px;line-height: 28px;}
 
+.info .myinfo .certificate .gaoxiang{
+    color: #72150E;
+    font-weight: bold;
+    cursor: pointer;
+}
+.info .myinfo .certificate .gaoxiang:hover{
+    color: #ffc107!important;
+}
+
 /* erwe */
 .erwe-wrapper{width: 200px;background: #fff;padding: 0 0 10px 0;border-radius: 10px;position: absolute;top: 0;z-index: 5;display: none;}
 .erwe-wrapper:before{content: "";position: absolute;display: block;width: 30px;height: 30px;background-position: 6px -26px;left: -25px;top: 15px;}
@@ -764,6 +773,14 @@ background   : #ededed;
     display: inline;color: #1f97f7;padding: 0 3px;
 }
 
+.img-alert{
+    width: 100%;
+    text-align: center;
+}
+.img-alert img{
+    display: block;
+    width: 100%;
+}
 
 /* #cover, */
 .nav .m-contact-me,

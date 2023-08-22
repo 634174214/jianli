@@ -182,6 +182,12 @@ html,body{font-size: 16px;height:auto}
 .info .myinfo .certificate>.text span{padding-right: 10px;}
 .info .myinfo .trait>.text{width: 700px;line-height: 28px;}
 
+.info .myinfo .certificate .gaoxiang{
+    color: #efd708;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 /* nav */
 .nav{width: 65vw;position: fixed;z-index: 101;left: 0;top: 0;bottom: 0;transform: translate3d(-100%,0,0);padding-right: 10px;transition: all 0.5s;}
@@ -793,6 +799,17 @@ background-position:-114px -232px;right: 10px;animation: moveright 1.5s both inf
 .check-school .check-school-img{width: 90%;position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);background: url(../img/loading.gif) no-repeat center center;background-size: 36px 36px;min-height: 50vh;}
 .check-school .check-school-img img{width: 100%;}
 
+.img-alert{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.img-alert img{
+    display: block;
+    width: 100%;
+}
 
 .hide{display: none;}
 
