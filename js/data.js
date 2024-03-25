@@ -144,27 +144,39 @@ var webBetter = [
         ],
     },
     {
-        'label': '响应式网站',
+        'label': 'PC / 手机网站',
         'qrclickShow': false,
         'data': [
             {
                 'src': webBetterPath + '3-xinziyuan.jpg',
                 'qr': webBetterPath + '3-xinziyuan-qr.png',
                 'name': '信网资源',
-                'href': 'http://www.qdxin.cn/ziyuan/'
+                'href': 'https://www.qdxin.cn/ziyuan/'
             },
             {
-                'src': webBetterPath + '3-dazong.jpg',
-                'qr': webBetterPath + '3-dazong-qr.png',
-                'name': '大宗新闻网',
-                'href': 'http://www.dazongnews.com/'
+                'src': webBetterPath + '3-xinm.jpg',
+                'qr': webBetterPath + '3-xinm-qr.png',
+                'name': '信网手机版',
+                'href': 'https://m.qdxin.cn/'
             },
             {
-                'src': webBetterPath + '3-yanyijituan.jpg',
-                'qr': webBetterPath + '3-yanyijituan-qr.png',
-                'name': '青岛演艺集团官方网站',
-                'href': 'http://www.qdyyjt.com/'
-            }
+                'src': webBetterPath + '3-qdpiyao.jpg',
+                'qr': webBetterPath + '3-qdpiyao-qr.png',
+                'name': '青岛辟谣',
+                'href': 'https://piyao.qdxin.cn/'
+            },
+            // {
+            //     'src': webBetterPath + '3-dazong.jpg',
+            //     'qr': webBetterPath + '3-dazong-qr.png',
+            //     'name': '大宗新闻网',
+            //     'href': 'http://www.dazongnews.com/'
+            // },
+            // {
+            //     'src': webBetterPath + '3-yanyijituan.jpg',
+            //     'qr': webBetterPath + '3-yanyijituan-qr.png',
+            //     'name': '青岛演艺集团官方网站',
+            //     'href': 'http://www.qdyyjt.com/'
+            // }
         ],
     },
     {
@@ -239,8 +251,99 @@ var webALLWorks = [
             }
         ]
     },
-    // h5类别
+    // Vue案例
     {
+        'label': 'VUE案例',
+        'qrclickShow': false,
+        'data': [
+            {
+                'src': webWorksPath + 'vue-music.jpg',
+                'qr': webWorksPath + 'vue-music-qr.png',
+                'name': 'Vue制作炸鸡音乐（自制）',
+                'href': 'http://my.wubin.work/works/qqmusic-vue3/html/'
+            },
+            {
+                'src': webWorksPath + 'vue-xinvideo.jpg',
+                'qr': webWorksPath + 'vue-xinvideo-qr.png',
+                'name': '信网短视频',
+                'href': 'https://v.qdxin.cn/video-fs/?id=488'
+            },
+            {
+                'src': webWorksPath + 'vue-yiqing.jpg',
+                'qr': webWorksPath + 'vue-yiqing-qr.png',
+                'name': '青岛肺炎疫情平台',
+                'href': 'http://vip.qdxin.cn/h5/2020/yiqing/?show'
+            },
+            {
+                'src': webWorksPath + 'vue-2024springcard.jpg',
+                'qr': webWorksPath + 'vue-2024springcard-qr.png',
+                'name': '2024春节贺卡',
+                'href': 'https://vip.qdxin.cn/2024/card/index.html?id=spring'
+            },
+            {
+                'src': webWorksPath + 'vue-qdlib.jpg',
+                'qr': webWorksPath + 'vue-qdlib-qr.png',
+                'name': '青岛风光库',
+                'href': 'http://qd.wubin.work/'
+            },
+            {
+                'src': webWorksPath + 'vue-elme.jpg',
+                'qr': webWorksPath + 'vue-elme-qr.png',
+                'name': 'Vue高仿饿了么（自制）',
+                'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
+            },
+            {
+                'src': webWorksPath + 'vue-song-lucky.jpg',
+                'qr': webWorksPath + 'vue-song-lucky-qr.png',
+                'name': '幸运翻翻翻（抽奖系统）',
+                'href': 'http://my.wubin.work/works/song-choujiang/'
+            },
+            {
+                'src': webWorksPath + 'vue-text2audio.jpg',
+                'qr': webWorksPath + 'vue-text2audio-qr.png',
+                'name': '信网语音合成系统',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/text-mp3/'
+            },
+            {
+                'src': webWorksPath + 'vue-haibao.jpg',
+                'qr': webWorksPath + 'vue-haibao-qr.png',
+                'name': '信网新闻海报生成工具',
+                'href': 'http://my.wubin.work/works/sale-card/'
+            },
+            {
+                'src': webWorksPath + 'pc-2023zt-huizong-tool.jpg',
+                'qr': webWorksPath + 'pc-2023zt-huizong-tool-qr.png',
+                'name': '信网新闻专题注释工具',
+                'href': 'http://my.wubin.work/works/xin-zt-huizong/tool/'
+            },
+            {
+                'src': webWorksPath + 'h5-2022-toupiao.jpg',
+                'qr': webWorksPath + 'h5-2022-toupiao-qr.png',
+                'name': '信网投票系统（原型）',
+                'href': 'http://my.wubin.work/works/toupiao/?id=5'
+            },
+            {
+                'src': webWorksPath + 'vue-ns-wegame.jpg',
+                'qr': webWorksPath + 'vue-ns-wegame-qr.png',
+                'name': '游小圈（前后端开发）',
+                'href': 'http://ns.wubin.work/'
+            },
+            {
+                'src': webWorksPath + 'vue-hospitals.jpg',
+                'qr': webWorksPath + 'vue-hospitals-qr.png',
+                'name': '青岛出征湖北医疗队宣言',
+                'href': 'http://vip.qdxin.cn/h5/2020/hospital-fight/'
+            },
+            {
+                'src': webWorksPath + 'vue-xintuku.jpg',
+                'qr': webWorksPath + 'vue-xintuku-qr.png',
+                'name': '信网图库(仅支持PC)',
+                'href': 'http://vip.qdxin.cn/vip/anli/pro/imgmove2/'
+            }
+        ]
+    },
+     // h5类别
+     {
         'label': 'H5',   // 标题标签
         // 点击是否显示二维码
         'qrclickShow': false,
@@ -426,6 +529,31 @@ var webALLWorks = [
                 'qr': webWorksPath + 'h5-dongjiqd-qr.png',
                 'name': '人情味·体验青岛海滨冬游',
                 'href': 'http://qd.sina.com.cn/qddjlv/index.html'
+            }
+        ]
+    },
+    // 微信小程序
+    {
+        'label': '微信小程序',
+        'qrclickShow': true,
+        'data': [
+            {
+                'src': webWorksPath + 'mini-xinnews.jpg',
+                'qr': webWorksPath + 'mini-xinnews-qr.png',
+                'name': '信网资讯小程序',
+                'href': 'javascript:;'
+            },
+            {
+                'src': webWorksPath + 'mini-piyao.jpg',
+                'qr': webWorksPath + 'mini-piyao-qr.png',
+                'name': '青岛网络辟谣平台小程序',
+                'href': 'javascript:;'
+            },
+            {
+                'src': webWorksPath + 'mini-weichen.jpg',
+                'qr': webWorksPath + 'mini-weichen-qr.jpg',
+                'name': '微尘公益基金小程序',
+                'href': 'javascript:;'
             }
         ]
     },
@@ -632,116 +760,6 @@ var webALLWorks = [
                 'qr': webWorksPath + 'pc-wangshi-qr.png',
                 'name': '网事如歌专题',
                 'href': 'http://www.qdxin.cn/special/2016/0509qdgoodstory/'
-            }
-        ]
-    },
-    // Vue案例
-    {
-        'label': 'VUE案例',
-        'qrclickShow': false,
-        'data': [
-            {
-                'src': webWorksPath + 'vue-music.jpg',
-                'qr': webWorksPath + 'vue-music-qr.png',
-                'name': 'Vue制作炸鸡音乐（自制）',
-                'href': 'http://my.wubin.work/works/qqmusic-vue3/html/'
-            },
-            {
-                'src': webWorksPath + 'vue-xinvideo.jpg',
-                'qr': webWorksPath + 'vue-xinvideo-qr.png',
-                'name': '信网短视频',
-                'href': 'https://v.qdxin.cn/video-fs/?id=488'
-            },
-            {
-                'src': webWorksPath + 'pc-2023zt-huizong-tool.jpg',
-                'qr': webWorksPath + 'pc-2023zt-huizong-tool-qr.png',
-                'name': '信网新闻专题注释工具',
-                'href': 'http://my.wubin.work/works/xin-zt-huizong/tool/'
-            },
-            {
-                'src': webWorksPath + 'vue-qdlib.jpg',
-                'qr': webWorksPath + 'vue-qdlib-qr.png',
-                'name': '青岛风光库',
-                'href': 'http://qd.wubin.work/'
-            },
-            {
-                'src': webWorksPath + 'vue-yiqing.jpg',
-                'qr': webWorksPath + 'vue-yiqing-qr.png',
-                'name': '青岛肺炎疫情平台',
-                'href': 'http://vip.qdxin.cn/h5/2020/yiqing/?show'
-            },
-            {
-                'src': webWorksPath + 'vue-elme.jpg',
-                'qr': webWorksPath + 'vue-elme-qr.png',
-                'name': 'Vue高仿饿了么（自制）',
-                'href': 'http://634174214.gitee.io/myself-vue-elme/#/goods'
-            },
-            {
-                'src': webWorksPath + 'vue-text2audio.jpg',
-                'qr': webWorksPath + 'vue-text2audio-qr.png',
-                'name': '信网语音合成系统',
-                'href': 'http://vip.qdxin.cn/vip/anli/pro/text-mp3/'
-            },
-            {
-                'src': webWorksPath + 'vue-haibao.jpg',
-                'qr': webWorksPath + 'vue-haibao-qr.png',
-                'name': '信网新闻海报生成工具',
-                'href': 'http://my.wubin.work/works/sale-card/'
-            },
-            {
-                'src': webWorksPath + 'h5-2022-toupiao.jpg',
-                'qr': webWorksPath + 'h5-2022-toupiao-qr.png',
-                'name': '信网投票系统（原型）',
-                'href': 'http://my.wubin.work/works/toupiao/?id=5'
-            },
-            {
-                'src': webWorksPath + 'vue-song-lucky.jpg',
-                'qr': webWorksPath + 'vue-song-lucky-qr.png',
-                'name': '幸运翻翻翻（抽奖系统）',
-                'href': 'http://my.wubin.work/works/song-choujiang/'
-            },
-            {
-                'src': webWorksPath + 'vue-ns-wegame.jpg',
-                'qr': webWorksPath + 'vue-ns-wegame-qr.png',
-                'name': '游小圈（前后端开发）',
-                'href': 'http://ns.wubin.work/'
-            },
-            {
-                'src': webWorksPath + 'vue-hospitals.jpg',
-                'qr': webWorksPath + 'vue-hospitals-qr.png',
-                'name': '青岛出征湖北医疗队宣言',
-                'href': 'http://vip.qdxin.cn/h5/2020/hospital-fight/'
-            },
-            {
-                'src': webWorksPath + 'vue-xintuku.jpg',
-                'qr': webWorksPath + 'vue-xintuku-qr.png',
-                'name': '信网图库(仅支持PC)',
-                'href': 'http://vip.qdxin.cn/vip/anli/pro/imgmove2/'
-            }
-        ]
-    },
-    // 微信小程序
-    {
-        'label': '微信小程序',
-        'qrclickShow': true,
-        'data': [
-            {
-                'src': webWorksPath + 'mini-xinnews.jpg',
-                'qr': webWorksPath + 'mini-xinnews-qr.png',
-                'name': '信网资讯小程序',
-                'href': 'javascript:;'
-            },
-            {
-                'src': webWorksPath + 'mini-piyao.jpg',
-                'qr': webWorksPath + 'mini-piyao-qr.png',
-                'name': '青岛网络辟谣平台小程序',
-                'href': 'javascript:;'
-            },
-            {
-                'src': webWorksPath + 'mini-weichen.jpg',
-                'qr': webWorksPath + 'mini-weichen-qr.jpg',
-                'name': '微尘公益基金小程序',
-                'href': 'javascript:;'
             }
         ]
     },
