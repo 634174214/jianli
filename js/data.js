@@ -246,6 +246,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [  // 数据
             {
+                'src': webWorksPath + 'h5-2024heka.jpg',
+                'qr': webWorksPath + 'h5-2024heka-qr.png',
+                'name': '2024制作你的春节贺卡',
+                'href': 'https://vip.qdxin.cn/2024/card/index.html?id=spring'
+            },
+            {
                 'src': webWorksPath + 'h5-piyao_yiqing.jpg',
                 'qr': webWorksPath + 'h5-piyao_yiqing-qr.png',
                 'name': '辟谣游戏:动动手指,粉碎涉青谣言!',
@@ -429,6 +435,12 @@ var webALLWorks = [
         'qrclickShow': false,
         'data': [
             {
+                'src': webWorksPath + 'pc-sheqipiyao.jpg',
+                'qr': webWorksPath + 'pc-sheqipiyao-qr.png',
+                'name': '青岛市涉企网络侵权举报专区',
+                'href': 'http://vip.qdxin.cn/2023/sheqi-piyao/'
+            },
+            {
                 'src': webWorksPath + 'pc-2023zt-huizong.jpg',
                 'qr': webWorksPath + 'pc-2023zt-huizong-qr.png',
                 'name': '信网新闻专题模板',
@@ -439,6 +451,12 @@ var webALLWorks = [
                 'qr': webWorksPath + 'pc-xindoc-qr.png',
                 'name': '信网智库',
                 'href': 'http://my.wubin.work/works/xin-doc/登录.html'
+            },
+            {
+                'src': webWorksPath + 'pc-piyaoxinhao2023.jpg',
+                'qr': webWorksPath + 'pc-piyaoxinhao2023-qr.png',
+                'name': '辟谣信号站 | 专题',
+                'href': 'http://vip.qdxin.cn/2023/piyao-huizong/index.html'
             },
             {
                 'src': webWorksPath + 'pc-shinan-wenming.png',
@@ -627,6 +645,12 @@ var webALLWorks = [
                 'qr': webWorksPath + 'vue-music-qr.png',
                 'name': 'Vue制作炸鸡音乐（自制）',
                 'href': 'http://my.wubin.work/works/qqmusic-vue3/html/'
+            },
+            {
+                'src': webWorksPath + 'vue-xinvideo.jpg',
+                'qr': webWorksPath + 'vue-xinvideo-qr.png',
+                'name': '信网短视频',
+                'href': 'https://v.qdxin.cn/video-fs/?id=488'
             },
             {
                 'src': webWorksPath + 'pc-2023zt-huizong-tool.jpg',

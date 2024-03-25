@@ -7,3 +7,8 @@
 如果远程服务器只有一个分支 那么直接 git push即可
 
 同样的，在更改了css或者是JS文件后，可能不会立即生效，必须要手动更改css/js的缓存?t=
+
+git status
+git add .
+git commit -m "xx"
+git push origin master
